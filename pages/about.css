@@ -1,0 +1,45 @@
+
+/* FONT */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+
+/* LATAR */
+#about {
+    background-image: url('../assets/images/planet,landscape.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 60px 20px;
+}
+
+.about-box {
+    width: 620px;
+    max-width: 100%;
+    box-sizing: border-box;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.85);
+    padding: 30px;
+    border-radius: 15px;
+}
+
+/* TEKS */
+.about-box h2 {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    color: #202c45;
+}
+
+.about-box p {
+    font-size: 16px;
+    text-align: left;
+    line-height: 1.8;
+}
+
+.about-box .closing {
+    text-align: right;
+    font-style: italic;
+}
