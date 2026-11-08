@@ -1,0 +1,110 @@
+<!--
+PERHITUNGAN LEBAR KARTU TANPA BOX-SIZING:
+Lebar       = 320px
+Padding     = 20px x 2 = 40px
+Border      = 2px x 2 = 4px
+Total       = 320px + 40px + 4px = 364px
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hobi Saya</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            background-color: #f0f2f7;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .pembungkus-isi {
+            width: 100%;
+        }
+
+        .card {
+            width: 320px;
+            padding: 20px;
+            border: 2px solid #343b60;
+            margin: 30px auto;
+            background-color: #ffffff;
+            border-radius: 12px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.12);
+        }
+
+        .card img {
+            width: 100%;
+            height: 160px;
+            display: block;
+            object-fit: cover;
+            border-radius: 7px;
+        }
+
+        .card h3 {
+            color: #202747;
+            margin-bottom: 8px;
+            font-size: 20px;
+        }
+
+        .card p {
+            font-size: 15px;
+            line-height: 1.6;
+            color: #555555;
+        }
+
+        .card a {
+            color: #7651c9;
+            font-size: 14px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .card a:hover {
+            color: #00a6c7;
+            text-decoration: underline;
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+        }
+
+        footer a {
+            color: #7651c9;
+            font-size: 13px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <main>
+        <div class="pembungkus-isi">
+
+            <div class="card">
+
+                <img src="../assets/images/gitar-elektrik.jpg" alt="Gitar Elektrik">
+
+                <h3>Hobi</h3>
+
+                <p>
+                    Saya adalah orang yang sangat suka terhadap alat musik gitar elektrik karena selain tampilannya keren, gitar ini bisa memainkan banyak genre dengan efek amplifier yang sudah disetel. Saya biasanya berlatih menggunakan video YouTube atau aplikasi untuk belajar dari nol, dan saya juga ingin membuat lagu sendiri menggunakan alat musik yang saya punya meskipun masih bingung harus memulainya dari mana karena masih dalam tahap berkembang.
+                </p>
+
+                <a href="#">Lihat Proyek</a>
+
+            </div>
+
+        </div>
+    </main>
+
+    <footer>
+        <a href="../pages/profile.html">Kembali ke Beranda</a>
+    </footer>
+
+</body>
+</html>
